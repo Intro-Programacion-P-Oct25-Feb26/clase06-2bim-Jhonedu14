@@ -30,7 +30,11 @@ public class Ejemplo08 {
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }
-        
+        /* catch Excepcion e sirve como padre de los erros por que captura todo 
+        depediendo al tipo de error que ingrese el usuario o mas especificio 
+        al tipo de dato en pocas palabras en un Excepcion que detecta todo los 
+        tipos de errores globales 
+        */
         
                
     }
