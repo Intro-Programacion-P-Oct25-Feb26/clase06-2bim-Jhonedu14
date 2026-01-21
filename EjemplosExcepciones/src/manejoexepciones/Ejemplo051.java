@@ -28,6 +28,10 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+          /* Primeramente el programa declara una variable bandera la cual entra
+                 en un ciclo de ahi el programa ingresa valores y dependiendo 
+                a los valores ingresados va al error o al ciclo y sale y imprime
+                */    
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
